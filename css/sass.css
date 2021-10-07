@@ -183,7 +183,7 @@ header .btn {
     min-width: 375px;
     height: 100vh;
     top: 0;
-    right: -110%;
+    right: -115%;
     padding: 80px 50px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -201,7 +201,7 @@ header .btn {
   }
   header .menu a {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     margin: 40px;
     padding: 0 15px;
   }
