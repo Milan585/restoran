@@ -227,6 +227,9 @@ header{
   }
 }
 @media (max-width: 476px){
+  header>.brend{
+    font-size: 25px;
+  }
   .animacija_txt{
     font-size: 1em;
   }
@@ -241,8 +244,8 @@ header{
   }
 }
 @media (max-width:404px){
-  .brend{
-    visibility: hidden;
+  header>.brend{
+    font-size: 22px
   }
   .animacija{
     @include apsolute;

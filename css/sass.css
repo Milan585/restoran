@@ -183,7 +183,7 @@ header .btn {
     min-width: 375px;
     height: 100vh;
     top: 0;
-    right: -115%;
+    right: -110%;
     padding: 80px 50px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -201,7 +201,7 @@ header .btn {
   }
   header .menu a {
     display: block;
-    font-size: 20px;
+    font-size: 22px;
     margin: 40px;
     padding: 0 15px;
   }
@@ -288,6 +288,9 @@ header .btn {
 }
 
 @media (max-width: 476px) {
+  header > .brend {
+    font-size: 25px;
+  }
   .animacija_txt {
     font-size: 1em;
   }
@@ -303,8 +306,8 @@ header .btn {
 }
 
 @media (max-width: 404px) {
-  .brend {
-    visibility: hidden;
+  header > .brend {
+    font-size: 22px;
   }
   .animacija {
     position: absolute;
