@@ -10,3 +10,7 @@
     align-items: center;
     justify-content: center;
 }
+
+@mixin font{
+    font-family: 'Ephesis', cursive;
+}

@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./mixin";
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
 *{
   margin: 0;
@@ -145,10 +146,10 @@ header{
       position: fixed;
       background: $primarna-boja;
       flex-direction: column;
-      min-width: 400px;
+      min-width: 375px;
       height: 100vh;
       top: 0;
-      right: -100%;
+      right: -110%;
       padding: 80px 50px;
       transition: 0.5s;
       transition-property: right;
@@ -164,7 +165,7 @@ header{
     }
     .menu a{
       display: block;
-      font-size: 24px;
+      font-size: 22px;
       margin: 40px;
       padding: 0 15px;
     }
@@ -182,7 +183,7 @@ header{
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: #fff;            
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     font-size: 20px;
@@ -222,6 +223,40 @@ header{
   cursor: pointer;
   i{
     margin: 0 3px;
+    color: #fff;
   }
 }
+@media (max-width: 476px){
+  .animacija_txt{
+    font-size: 1em;
+  }
+  .prelaz{
+    left: 9%;
+    top: 43%;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  .socialM{
+    font-size: 27px;
+  }
+}
+@media (max-width:404px){
+  .brend{
+    visibility: hidden;
+  }
+  .animacija{
+    @include apsolute;
+    top: 35%;
+  }
+  .prelaz{
+    @include apsolute;
+    font-size: 13px;
+  }
+  .menu{
+    min-width: 370px;
+    right: -108%;
+  }
+}
+@media (max-width: 376px) {
   
+}

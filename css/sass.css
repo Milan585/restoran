@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -179,10 +180,10 @@ header .btn {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-width: 400px;
+    min-width: 375px;
     height: 100vh;
     top: 0;
-    right: -100%;
+    right: -110%;
     padding: 80px 50px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -200,7 +201,7 @@ header .btn {
   }
   header .menu a {
     display: block;
-    font-size: 24px;
+    font-size: 22px;
     margin: 40px;
     padding: 0 15px;
   }
@@ -220,7 +221,7 @@ header .btn {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color: #fff;
   -webkit-box-shadow: 0 0 20px #eee;
           box-shadow: 0 0 20px #eee;
   border-radius: 10px;
@@ -283,5 +284,47 @@ header .btn {
 
 .socialM i {
   margin: 0 3px;
+  color: #fff;
+}
+
+@media (max-width: 476px) {
+  .animacija_txt {
+    font-size: 1em;
+  }
+  .prelaz {
+    left: 9%;
+    top: 43%;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  .socialM {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 404px) {
+  .brend {
+    visibility: hidden;
+  }
+  .animacija {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    top: 35%;
+  }
+  .prelaz {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    font-size: 13px;
+  }
+  .menu {
+    min-width: 370px;
+    right: -108%;
+  }
 }
 /*# sourceMappingURL=sass.css.map */
