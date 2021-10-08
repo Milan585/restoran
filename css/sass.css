@@ -118,7 +118,7 @@ header .menu {
 
 header .menu a {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   text-decoration: none;
   margin: 20px;
@@ -201,7 +201,7 @@ header .btn {
   }
   header .menu a {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     margin: 40px;
     padding: 0 15px;
   }
